@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Native</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        text-align: center;
+        padding: 50px;
+      }
+      .container {
+        background: white;
+        padding: 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        display: inline-block;
+        border-radius: 10px;
+      }
+      button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Selamat Datang di Web Native</h1>
+      <p>Klik tombol di bawah untuk menampilkan pesan.</p>
+      <button onclick="showMessage()">Klik Saya</button>
+    </div>
+
+    <script>
+      function showMessage() {
+        alert("Halo, ini adalah pesan dari JavaScript!");
+      }
+    </script>
+  </body>
+</html>
